@@ -13,7 +13,7 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    host: '0.0.0.0',   // expose to Bolt preview
-    strictPort: false,  // allow Vite to pick a free port automatically
+    host: '0.0.0.0',   // expose dev server to Bolt
+    strictPort: false,  // allow Vite to pick any free port automatically
   },
 });
