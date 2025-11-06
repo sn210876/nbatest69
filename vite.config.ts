@@ -13,8 +13,8 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   server: {
-    host: '0.0.0.0',  // exposes server to Bolt preview
-    port: 3000,        // fixed port
-    strictPort: true   // prevents auto port switching
+    host: '0.0.0.0',   // exposes server to Bolt preview
+    port: 5174,         // changed from 3000 to 5174
+    strictPort: true    // prevents auto port switching
   },
 });
