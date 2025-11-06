@@ -14,7 +14,7 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0',  // exposes server to Bolt preview
-    port: 5174,        // fixed port
+    port: 3000,        // fixed port
     strictPort: true   // prevents auto port switching
   },
 });
