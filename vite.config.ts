@@ -12,4 +12,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    host: '0.0.0.0',  // exposes server to Bolt preview
+    port: 3000,        // fixed port
+    strictPort: true   // prevents auto port switching
+  },
 });
